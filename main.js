@@ -114,7 +114,7 @@ function animate() {
     // 3. update controls with a small step value to "power its engines"
   controls.update(0.1)
 
-  earth.rotation.y += 0.001;
+  earth.rotation.y += -0.0002;
  
 }
 animate();
